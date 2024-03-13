@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4285f4;
+  }
+  
+  h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #4285f4;
+  }
+  
+  p {
+    margin-top: 12px;
+    margin-bottom: 0px;
+  }
+  
+  .note {
+    padding: 10px 20px;
+    border: 2px solid #f4b400;
+    border-radius: 10px;
+    background-color: rgba(244, 160, 0, 0.9);
+    color: #fff;
+  }
+  
+  .form-section {
+    border-top: 2px dotted #db4437;
+    padding-top: 20px;
+  }
+  
+  .newsletter-notice {
+    font-size: small;
+  }
+  
+  .neweletter-form {
+    margin-top: 12px;
+  }
+  
+  .neweletter-form button {
+    background-color: #4285f4;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    padding: 2px 4px;
+  }
+  
+  .neweletter-form button:hover {
+    background-color: #3367d6;
+    cursor: pointer;
+  }
+  

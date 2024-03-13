@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="week2.css">
+    <link rel="icon" type="image/x-icon" href="../../static/favicon.ico">
+    <title>Week 2 | Guessing Game</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-99VKHM12GX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-99VKHM12GX');
+</script>
+</head>
+<body>
+    <!-- Form: input[number] > submit -->
+    <!-- Generate random number -->
+    <!-- form submission > comparsion -->
+    <main>
+        <div class="form-container">
+            <form id="guess-form">
+                <p class="random"></p>
+                <input style="width: 10%" min="0" max="9" required type="number" name="guess_number" id="guess_number"/>
+                <button type="submit">SUBMIT</button>
+            </form>
+            <div class="form_submit_div" id="success">
+                <div class="tenor-gif-embed" data-postid="20227875" data-share-method="host" data-aspect-ratio="1.66667" data-width="100%"><a href="https://tenor.com/view/gif-keyboard-gif-20227875">Gif Keyboard GIF</a>from <a href="https://tenor.com/search/gif-gifs">Gif GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+            </div>
+            <div class="form_submit_div" id="fail">
+                <div class="tenor-gif-embed" data-postid="24584751" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%"><a href="https://tenor.com/view/comet-towards-earth-dont-look-up-meteor-asteroids-on-fire-gif-24584751">Comet Towards Earth Dont Look Up GIF</a>from <a href="https://tenor.com/search/comet+towards+earth-gifs">Comet Towards Earth GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+            </div>    
+        </div>
+    </main>
+    <script src="week2.js"></script>
+</body>
+</html>
